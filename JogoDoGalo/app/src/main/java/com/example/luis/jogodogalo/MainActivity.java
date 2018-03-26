@@ -50,6 +50,7 @@ public class MainActivity extends Simplificacoes{
                         acabou=true;
                         Intent myIntent = new Intent(this, MainActivity.class);
                         startActivity(myIntent);
+                        this.finish();
                     }
                 }
             } else if (jogador == 2) {
